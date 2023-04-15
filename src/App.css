@@ -1,0 +1,36 @@
+#root{
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pointer {
+  cursor: crosshair;
+}
+
+.colorsOdd tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+  
+.colorsEven tr:nth-child(even) {
+  background-color: #e5dfdf;
+}
+.actionsBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.crosshair{
+  cursor: crosshair;
+}
